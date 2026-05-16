@@ -1,0 +1,25 @@
+region = "us-east-1"
+project_prefix = "dc-pruebas"
+environment = "dev"
+
+instance_type_app = "t2.small"
+instance_type_db = "t3.small"
+instance_type_kong = "t3.small"
+
+volume_size = 30
+volume_type = "gp3"
+
+db_user = "postgres"
+db_password_recursos = "REEMPLAZA_ESTO"
+db_name_recursos = "recursos_db"
+db_password_usuarios = "REEMPLAZA_ESTO"
+db_name_usuarios = "usuarios_db"
+db_password_negocio = "REEMPLAZA_ESTO"
+db_name_negocio = "negocio_db"
+
+repository = "https://example.com/tu-repositorio.git"
+branch = "main"
+
+db_username = "postgres"
+db_password = "REEMPLAZA_ESTO"
+azure_devops_pat = "REEMPLAZA_ESTO"
